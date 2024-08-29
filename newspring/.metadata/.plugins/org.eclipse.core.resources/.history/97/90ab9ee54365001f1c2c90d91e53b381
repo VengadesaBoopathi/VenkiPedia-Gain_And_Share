@@ -1,0 +1,9 @@
+package com.springrest.springrest.server;
+
+public class SigninServer {
+
+	public SigninServer() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

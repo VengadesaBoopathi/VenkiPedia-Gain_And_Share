@@ -1,0 +1,9 @@
+package com.springrest.springrest.Dao;
+
+public class SigninDao {
+
+	public SigninDao() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

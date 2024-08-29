@@ -1,0 +1,9 @@
+package com.springrest.springrest.Dao;
+
+public class loginDao {
+
+	public loginDao() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

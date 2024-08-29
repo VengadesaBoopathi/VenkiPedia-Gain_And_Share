@@ -1,0 +1,9 @@
+package com.springrest.springrest.server;
+
+public class LoginServer {
+
+	public LoginServer() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

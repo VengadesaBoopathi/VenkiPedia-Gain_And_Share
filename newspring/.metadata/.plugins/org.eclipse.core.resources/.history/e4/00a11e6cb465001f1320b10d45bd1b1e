@@ -1,0 +1,9 @@
+package com.springrest.springrest.entity;
+
+public class Blog {
+
+	public Blog() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
