@@ -1,6 +1,5 @@
 package com.springrest.springrest.entity;
 
-
 import java.time.LocalDateTime;
 
 import jakarta.persistence.Column;
@@ -8,11 +7,13 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.Lob;
 import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "blogs")
 public class Blog {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -23,13 +24,27 @@ public class Blog {
     @Column(nullable = false)
     private String title;
 
+    @Lob
     @Column(nullable = false)
-    private String content;
+    private String description;
 
+    @Lob
     @Column(nullable = false)
-    private LocalDateTime createdAt;
+    private String what;
 
-	public Long getId() {
+    @Lob
+    private String why;
+
+    @Lob
+    private String how;
+
+    @Lob
+    private String whatif;
+
+    @Lob
+    private String additionalDetails;
+
+    public Long getId() {
 		return id;
 	}
 
@@ -53,12 +68,52 @@ public class Blog {
 		this.title = title;
 	}
 
-	public String getContent() {
-		return content;
+	public String getDescription() {
+		return description;
 	}
 
-	public void setContent(String content) {
-		this.content = content;
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	public String getWhat() {
+		return what;
+	}
+
+	public void setWhat(String what) {
+		this.what = what;
+	}
+
+	public String getWhy() {
+		return why;
+	}
+
+	public void setWhy(String why) {
+		this.why = why;
+	}
+
+	public String getHow() {
+		return how;
+	}
+
+	public void setHow(String how) {
+		this.how = how;
+	}
+
+	public String getWhatif() {
+		return whatif;
+	}
+
+	public void setWhatif(String whatif) {
+		this.whatif = whatif;
+	}
+
+	public String getAdditionalDetails() {
+		return additionalDetails;
+	}
+
+	public void setAdditionalDetails(String additionalDetails) {
+		this.additionalDetails = additionalDetails;
 	}
 
 	public LocalDateTime getCreatedAt() {
@@ -69,5 +124,8 @@ public class Blog {
 		this.createdAt = createdAt;
 	}
 
-    
+	@Column(nullable = false)
+    private LocalDateTime createdAt;
+
+    // Getters and setters
 }
