@@ -12,4 +12,8 @@ public interface BlogServer {
 
 	List<Blog> getAllBlogs();
 
+	Blog updateBlog(Long id, Blog blogDetails);
+
+	void deleteBlog(Long id);
+
 }

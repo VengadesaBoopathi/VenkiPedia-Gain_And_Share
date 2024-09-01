@@ -33,4 +33,20 @@ public class BlogServerImpl implements BlogServer{
 	public List<Blog> getAllBlogs() {
 		return blogdao.findAll();
 	}
+
+	@Override
+	public Blog updateBlog(Long id, Blog blogDetails) {
+		// TODO Auto-generated method stub
+		blogDetails.setId(id);
+		blogdao.save(blogDetails);
+		return null;
+	}
+
+	@Override
+	public void deleteBlog(Long id) {
+		// TODO Auto-generated method stub
+		blogdao.deleteById(id);
+		
+	}
+    
 } 
