@@ -17,7 +17,7 @@ public class Blog {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
+//comment
     @Column(nullable = false)
     private String userId; 
 
