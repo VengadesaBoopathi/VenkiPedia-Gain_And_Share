@@ -1,0 +1,9 @@
+package com.springrest.springrest.controller;
+
+public class BlogController {
+
+	public BlogController() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

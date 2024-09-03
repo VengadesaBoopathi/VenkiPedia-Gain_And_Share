@@ -1,0 +1,9 @@
+package com.springrest.springrest.server;
+
+public class SigninImpl {
+
+	public SigninImpl() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

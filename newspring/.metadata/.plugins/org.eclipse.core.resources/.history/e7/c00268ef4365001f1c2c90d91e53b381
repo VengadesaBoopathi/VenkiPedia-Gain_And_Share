@@ -1,0 +1,9 @@
+package com.springrest.springrest.controller;
+
+public class SigninController {
+
+	public SigninController() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

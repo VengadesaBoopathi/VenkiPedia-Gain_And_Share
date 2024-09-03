@@ -1,0 +1,9 @@
+package com.springrest.springrest.server;
+
+public class BlogServerImpl {
+
+	public BlogServerImpl() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
