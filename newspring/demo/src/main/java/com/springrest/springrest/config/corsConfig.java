@@ -5,14 +5,16 @@ import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
-public class corsConfig implements WebMvcConfigurer {
+public class CorsConfig implements WebMvcConfigurer {
 
     @Override
     public void addCorsMappings(CorsRegistry registry) {
-        registry.addMapping("/**") // Apply to all endpoints
-                .allowedOrigins("*") // Allow this specific origin
-                .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS") // Allow these HTTP methods
-                .allowedHeaders("Content-Type", "Authorization") // Allow these headers
-                .allowCredentials(true); // Allow credentials (cookies, authorization headers, etc.)
+        registry.addMapping("/**")
+                .allowedOrigins("http://venkipedia.s3-website.ap-south-1.amazonaws.com")
+                // Or use allowedOriginPatterns if you need more flexibility
+                // .allowedOriginPatterns("*")
+                .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
+                .allowedHeaders("*")
+                .allowCredentials(true);
     }
 }
