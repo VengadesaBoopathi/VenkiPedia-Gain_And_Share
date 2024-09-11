@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @RestController
-@CrossOrigin(origins = "*")
+//@CrossOrigin(origins = "http://localhost:3000")
 public class LoginController {
 
     @Autowired
