@@ -1,5 +1,8 @@
 Frontend:https://github.com/VengadesaBoopathi/venkipedia-Frontend-
-![Screenshot 2024-11-30 080011](https://github.com/user-attachments/assets/f447c753-5832-42db-a416-59860f526363)
+
+Website Deployed on GCP using Docker
+![Screenshot 2024-11-30 075840](https://github.com/user-attachments/assets/0bf90bdd-4d3b-4fb2-bcbd-03f277381d7f)
+
 ![Screenshot 2024-11-30 075903](https://github.com/user-attachments/assets/8bd598c5-e681-411a-b645-5eb0b6607568)
 ![Screenshot 2024-11-30 075911](https://github.com/user-attachments/assets/9282135f-9d39-4f5b-8d82-1f55126f6f97)
 ![Screenshot 2024-11-30 075924](https://github.com/user-attachments/assets/df9abcc0-ce2d-48f8-a673-5fd7386caa55)
